@@ -5,8 +5,10 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Innoscripta task",
-  description: "innoscripta task",
+  title: {
+    default: "Innoscripta task",
+    template: `%s | innoscripta task`,
+  },
 };
 
 export default function RootLayout({
