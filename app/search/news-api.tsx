@@ -40,7 +40,7 @@ export default async function NewsApi({
 
   return (
     <div>
-      <div className="flex justify-between items-center">
+      <div className="flex flex-col lg:flex-row justify-between items-center gap-5 lg:gap-0">
         <Heading title={searchParams.title} total={data.totalResults} />
       </div>
 
