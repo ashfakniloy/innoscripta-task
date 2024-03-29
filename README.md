@@ -4,8 +4,7 @@
 
 ## Getting started
 
-[Running the project with docker](#running-the-project-with-docker)
-[Running the project with npm](#running-the-project-with-npm)
+[Running the project with docker](#running-the-project-with-docker) | [Running the project with npm](#running-the-project-with-npm)
 
 ## Running the project with docker
 
